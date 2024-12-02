@@ -2,5 +2,6 @@
 * text=auto
 # Hide Frontend layer
 *.html linguist-detectable=false
+*.css linguist-detectable=false
 # Explicit Show Backend layer 
 *.go linguist-detectable=true
