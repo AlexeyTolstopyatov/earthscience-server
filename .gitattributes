@@ -1,3 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-* .html linguist-detectable=false
+# Hide Frontend layer
+*.html linguist-detectable=false
+# Explicit Show Backend layer 
+*.go linguist-detectable=true
